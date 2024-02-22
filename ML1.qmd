@@ -11,7 +11,7 @@ editor: visual
 
 Our data set consists of an expression profiling by array. We have 763 primary medulloblastoma samples used for identification of Medulloblastoma subtypes, profiled with the Affimetrix Human Gene 1.1 ST Array. The data set was obtained from the Gene Expression Omnibus (GEO GSE85218).
 
-It contributes to the field of genomics given is one the biggest of its type. This is valuable because each subgroup of medulloblastoma has its medical features, making each subgroup more susceptible to a different treatment.
+It contributes to the field of genomics given is one the biggest of its type. This is valuable because each subgroup of medulloblastoma has its own medical features, making each subgroup more susceptible to a different treatment.
 
 ## Exploratory Data Analysis
 
@@ -19,8 +19,7 @@ It contributes to the field of genomics given is one the biggest of its type. Th
 
 ## Justification for Machine Learning
 
-It is known that there are 4 subgroups of medulloblastoma. [@cavalli2017intertumoral]
-We aim to apply Machine Learning in such a way that we are able to classify each of the 4 defined medulloblastoma subtypes. This cannot be done by a bioinformatic analysis.
+It is known that there are 4 subgroups of medulloblastoma. [@cavalli2017intertumoral] We aim to apply Machine Learning in such a way that we are able to classify each of the 4 defined medulloblastoma subtypes. This cannot be done by just a bioinformatic analysis; every statistical classification method may be considered a supervised machine learning approach.
 
 ## Project description
 
