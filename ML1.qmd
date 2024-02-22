@@ -14,7 +14,11 @@ editor: visual
 ## Dataset Clarification
 
 Our data set consists of an expression profiling by array. We have 763
-primary medullobalstoma samples used for identification of Medullobastoma subtypes, profiled with the Affimetrix Human Gene 1.1 ST Array. The data set was obtained from the Gene Expression Omnibus (GEO GSE85218)
+primary medullobalstoma samples used for identification of Medullobastoma subtypes, profiled with the Affimetrix Human Gene 1.1 ST Array. The data set was obtained from the Gene Expression Omnibus (GEO GSE85218).
+
+It contributes to the field of genomics given is one the biggest of its type.
+
+
 
 ## Exploratory Data Analysis 
 
