@@ -28,6 +28,9 @@ It contributes to the field of genomics given is one the biggest of its type. Th
 
 ## Justification for Machine Learning
 
+It is known that there are 4 subgroups of medulloblastoma.
+We aim to apply Machine Learning in such a way that we are able to classify each of the 4 defined medulloblastoma subtypes. This
+cannot be done by a bioinformatic analysis. 
 
 
 ## Project description
