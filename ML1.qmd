@@ -3,6 +3,8 @@ title: "Machine Learning Applications in Genomics Class: Final Project Guide and
 author: "Alejandro Efraín Marín Peralta, Manuel Rivera Cerón"
 format: html
 editor: visual
+bibliography: references.bib
+
 ---
 
 # Dataset Identification and Exploratory Data Analysis
