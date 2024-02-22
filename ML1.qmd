@@ -9,7 +9,9 @@ editor: visual
 
 ## Dataset Clarification
 
-Our data set consists of an expression profiling by array. We have 763 primary medulloblastoma samples used for identification of Medulloblastoma subtypes, profiled with the Affimetrix Human Gene 1.1 ST Array. The data set was obtained from the Gene Expression Omnibus (GEO GSE85218).
+Our data set consists of an expression profiling by array. We have 763 primary medulloblastoma samples used for identification of Medulloblastoma subtypes, profiled with the Affimetrix Human Gene 1.1 ST Array. The data set was obtained from the Gene Expression Omnibus (GEO GSE85218). Given that we have microarray data, raw files are in a CEL format, which are binary files that contain light intensities
+and locations where there was hybridization [@ramaswamy2019bioinformatic]. Nevertheless, we also have a concatenated TSV file containing
+all the data.
 
 It contributes to the field of genomics given is one the biggest of its type. This is valuable because each subgroup of medulloblastoma has its own medical features, making each subgroup more susceptible to a different treatment.
 
@@ -20,6 +22,10 @@ It contributes to the field of genomics given is one the biggest of its type. Th
 ## Justification for Machine Learning
 
 It is known that there are 4 subgroups of medulloblastoma. [@cavalli2017intertumoral] We aim to apply Machine Learning in such a way that we are able to classify each of the 4 defined medulloblastoma subtypes. This cannot be done by just a bioinformatic analysis; every statistical classification method may be considered a supervised machine learning approach.
+
+One limitation that we must take into account is that, even if we have a big data set, it can also be a constrain for the application of
+machine learning algorithms. It is also important to note that we have a lot of observations for limited size of samples; we are victims
+of the curse of dimensionality.
 
 ## Project description
 
